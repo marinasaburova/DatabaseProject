@@ -1,0 +1,545 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*-------------
+MY CSS CODE: 
+---------------*/
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.center-box {
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.center-box-wide {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.centered-stuff {
+    margin: auto;
+    
+}
+
+/* TEXT */
+
+#welcome-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: burlywood;
+  letter-spacing: 6px;
+  line-height: 70px;
+
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: lightsteelblue;
+  letter-spacing: 4px;
+  line-height: 60px;
+
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: lightsteelblue;
+  letter-spacing: 3px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+
+  line-height: 30px;
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+
+  color: lightsteelblue;
+  line-height: 30px;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+
+  color: lightsteelblue;
+  line-height: 30px;
+}
+
+i { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+
+  line-height: 26px;    
+  color: darksalmon;
+}
+
+/* TABLES */
+
+.all-items {
+  width: 1000px;
+  padding-top: 300px;
+}
+
+th {
+  font-style: bold;
+}
+
+th,
+td {
+  text-align: left;
+  width: 10%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: lightsteelblue;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+#welcome-box {
+  width: 30%;
+  height: 70px;
+  padding: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-links {
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 187px 187px 187px;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-container.employee {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 150px;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* FORMS */
+
+#log-in {
+  width: 30%;
+  padding: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: lightsteelblue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 12px 2px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: lightsteelblue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 12px 2px;
+  cursor: pointer;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+/* MENU */
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: linen;
+}
+
+ul {
+  margin-right: 30px;
+}
+
+ul li {
+  float: right;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  padding: 0 20px;
+}
+
+ul li a:hover {
+  color: darksalmon;
+}
+
+
+/* CATEGORY SELECTION */
+
+.category-div {
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.category {
+  width: 100%;
+  height: 100px;
+  margin:auto; 
+  background-color: white;
+
+}
+
+.category ul li {
+  align-self: center;
+  text-align: center; 
+  width: 15%; 
+
+}
+
+.category ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.category ul li a:hover {
+  color: lightsteelblue;
+}
+
+.searchbar {
+  float: left;
+  padding: 6px;
+  margin: 6px;
+  border: none;
+  font-size: 12px;
+  width: 200px;
+}
+
+.flex-container {
+  /* margin: 0 auto;
+  padding: 20px;
+  width: 100%; */
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-child:first-child {
+    flex: 0 0 30%;
+  margin-right: 20px;
+  position: relative;
+}
+
+
+.filter { 
+ padding: 20px;   
+}
+
+.filter form {
+  margin: auto;
+}
+
+.filter form label {
+  width: 100%;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.filter select {
+  width: 90%;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.filter.center select { 
+    width: 150px;
+}
+
+.add-quantity { 
+    margin: auto;
+    width: 200px;
+}
+.add-quantity label {
+    font-size: 16px; 
+}
+.add-quantity input { 
+    width: 70px;
+}

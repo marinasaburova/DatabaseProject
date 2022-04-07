@@ -1,5 +1,5 @@
 # Database Final
-This project was the final for my CSIT355 Fall 2021 Database Course at Montclair State University. 
+This project was the final project for my **CSIT355 Fall 2021 Database Course** at Montclair State University. 
 
 I have recently made some minor changes to improve the organization and remove redundancy, but I am keeping the site essentially the same. 
 
